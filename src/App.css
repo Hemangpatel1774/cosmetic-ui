@@ -1,0 +1,72 @@
+.navbar {
+  width: 100%;
+  aspect-ratio: 24/1;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 0 7.2vw;
+  justify-content: space-between;
+  z-index: 999;
+  transition: all 0.1s linear;
+  backdrop-filter: blur(4px);
+  background-color: #fdf0e1c5;
+}
+.logo {
+  cursor: pointer;
+  background-color: transparent;
+  width: 5.25vw;
+}
+.nav-page-links {
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  column-gap: 2.45vw;
+  & > li {
+    list-style-type: none;
+    font-family: DM sans-serif;
+    text-transform: uppercase;
+    font-size: 0.925vw;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    & > span {
+      font-family: Inter, sans-serif;
+    }
+    & > img {
+      transform: translateY(-0.1vw);
+    }
+  }
+}
+.nav-page-links:first-child > li:first-child {
+  color: var(--primary-text-color);
+}
+.nav-link-down-arrow {
+  width: 1.35vw;
+}
+.nav-link-pages-text {
+  display: flex;
+  align-items: center;
+}
+.nav-cart-area {
+  display: flex;
+  align-items: center;
+  gap: 0.15vw;
+}
+.nav-cart-area > img {
+  width: 1.25vw;
+}
+.nav-cart-area > span {
+  font-size: 0.75vw;
+  width: fit-content;
+  background-color: black;
+  font-family: Inter, sans-serif;
+  height: 1.25vw;
+  min-width: 1.25vw;
+  scale: 0.9;
+  text-align: center;
+  transform: translateY(-0.1vw);
+  padding: 0.2vw 0.15vw 0;
+  color: white;
+  border-radius: 50%;
+}

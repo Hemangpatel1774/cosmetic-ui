@@ -1,0 +1,33 @@
+:root{
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color: #FDF0E1;
+  --primary-text-color: #B37A59;
+    --text-color: #2b2b2b;
+    --primary: #261a13;
+    --bg-color: #fdf0e1;
+    --light-grey: #fafafa;
+    --peru: #b37a59;
+    --misty-rose: #ffdede;
+    --link-bg-grey: #f1f1f1;
+    --dark-salmon: #eb9981;
+    --bg-grey: #d4d4d4;
+    --light-blue-bg: #f8f8fa;
+    --dim-grey: #c5c5c5;
+    --notification-bg: #001b38;
+    --secondary: #4353fa;
+    --dim-grey-2: #6b6b6b;
+  --font-family:DM Serif Display;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: var(--font-family);
+}
+body{
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}

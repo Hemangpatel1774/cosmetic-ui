@@ -1,11 +1,8 @@
-import React, { useRef } from "react";
 import Logo from "../assets/symbols/logo.svg";
 import Cart from "../assets/symbols/cart2.svg";
 import DownArrow from "../assets/symbols/down-arrow.svg";
 import { gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
 const Navbar = () => {
-  const liEl = useRef(null);
   const changeNavLinkColor = (e) => {
     gsap.to(".navlinkColor", {
       color: "#000",
